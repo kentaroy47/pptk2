@@ -58,9 +58,9 @@ def list_libs():
 
 
 setup(
-    name='pptk',
+    name='pptk2',
     version='0.1.1',
-    description='A Python package for facilitating point cloud processing.',
+    description='pptk workarounds for ubuntu 18 and python >3.7.',
     author='HERE Europe B.V.',
     classifiers=[
         'Intended Audience :: Science/Research',
@@ -69,7 +69,7 @@ setup(
     license='MIT',
     install_requires=['numpy'],
     project_urls={
-        'Source': 'https://github.com/heremaps/pptk'},
+        'Source': 'https://github.com/kentaroy47/pptk2'},
     packages=find_packages(),
     package_data={
         'pptk': [
